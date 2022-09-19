@@ -32,7 +32,7 @@ export const config = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -41,7 +41,7 @@ export const config = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "腾妹儿",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "otZ8y6flaFatrzLhKJnxXfCWo0pM",
+      id: "otZ8y6flaFatrzLhKJnxXfCWo0pM，otZ8y6dFlmPLZk38b3XlPMI8WlhU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "R_vTtMqRj_3Lge1qdKW3XKQT2hYcZPC17tlzUXRk1L8",
+      useTemplateId: "4n7CtV8QnqtfJU64H0qoPERXzAoYWqV73nuDeV4O0js",
       // 所在省份
       province: "河北",
       // 所在城市
@@ -79,7 +79,6 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "腾妹儿", "year": "1998", "date": "09-04"},
-        {"type": "节日", "name": "恋爱纪念日", "year": "2014", "date": "05-19"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "葩儿哥", "year": "1998", "date": "05-22"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2014", "date": "05-19"},
