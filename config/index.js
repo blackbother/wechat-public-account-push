@@ -89,18 +89,6 @@ export const config = {
         {"keyword": "love_day", date: "2014-05-19"},
       ]
     },
-    {
-      name: "腾妹儿",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
   ],
 
   /**
