@@ -74,7 +74,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://www.bilibili.com",
+      openUrl: "http://biaobai.haoyueyuankong.work/love.html?me=%E8%91%A9%E5%84%BF%E5%93%A5&you=%E8%85%BE%E8%85%BE%E5%AE%9D%E8%B4%9D%E5%84%BF&yi=%E7%9C%A8%E7%9C%BC%E4%B9%8B%E9%97%B4%EF%BC%8C%E6%88%91%E4%BB%AC%E5%B7%B2%E7%BB%8F%E5%9C%A8%E4%B8%80%E8%B5%B7%E8%BF%99%E4%B9%88%E4%B9%85%E4%BA%86%E3%80%82%E6%AF%8F%E6%AF%8F%E6%83%B3%E8%B5%B7%E5%88%9A%E5%BC%80%E5%A7%8B%E5%AF%B9%E4%BD%A0%E5%8A%A8%E6%AD%AA%E5%BF%83%E6%80%9D%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E6%88%91%E7%9A%84%E5%BF%83%E8%BF%98%E7%A0%B0%E7%A0%B0%E7%9B%B4%E8%B7%B3%E3%80%82%E4%BD%A0%E6%98%AF%E5%94%AF%E4%B8%80%E4%B8%80%E4%B8%AA%E8%83%BD%E8%AE%A9%E6%88%91%E8%A7%89%E5%BE%97%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E5%80%BC%E5%BE%97%E7%9A%84%E4%BA%BA%E3%80%82%E6%89%80%E4%BB%A5%E6%9C%AA%E6%9D%A5%E7%9A%84%E6%97%A5%E5%AD%90%EF%BC%8C%E5%B0%B1%E9%BA%BB%E7%83%A6%E4%BD%A0%E5%A4%9A%E5%A4%9A%E7%85%A7%E9%A1%BE%E5%95%A6%EF%BC%81%E5%BD%93%E7%84%B6%EF%BC%8C%E6%88%91%E4%B9%9F%E4%BC%9A%E6%8A%8A%E4%BD%A0%E5%85%BB%E7%9A%84%E7%99%BD%E7%99%BD%E8%83%96%E8%83%96%E7%9A%84%E5%95%A6%E5%93%88%E5%93%88%E5%93%88%EF%BC%81%EF%BC%81%EF%BC%81&wu=%E4%B8%8D%E6%98%AF%E5%A4%AA%E8%8D%89%E7%8E%87%EF%BC%8C%E5%8F%AA%E6%98%AF%E5%B7%B2%E5%85%A5%E5%BF%83&year=2014&yue=5&ri=19",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
